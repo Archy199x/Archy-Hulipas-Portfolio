@@ -5,14 +5,14 @@ body {
 }
 
 a {
-    color: #000;
-    text-decoration: none;
-    opacity: 0.8;
+  color: #000;
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 a:hover {
-    color: #000;
-    opacity: 1;
+  color: #000;
+  opacity: 1;
 }
 
 .navbar {
@@ -145,7 +145,7 @@ footer {
 
 /* My CSS */
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 /* Header */
@@ -156,30 +156,36 @@ body {
 
 /* About Section */
 #about .container {
-    text-align: center;
+  text-align: center;
 }
 
 #my-pic {
-    width: 20%;
-    border-radius: 20%;
-    margin-bottom: 30px;
+  width: 20%;
+  border-radius: 20%;
+  margin-bottom: 30px;
 }
 /* End of About Section */
 
-
-
 @media (max-width: 980px) {
-    .container {
-        width: 95%;
-    }
+  .container {
+    width: 95%;
+  }
 
-    .navbar-brand {
-        display: contents;
-    }
+  .navbar-brand {
+    display: contents;
+  }
+
+  #my-pic {
+    width: 30%;
+  }
 }
 
 @media (max-width: 480px) {
-    #my_logo {
-        width: 20%;
-    }
+  #my_logo {
+    width: 20%;
+  }
+
+  #my-pic {
+    width: 40%;
+  }
 }
